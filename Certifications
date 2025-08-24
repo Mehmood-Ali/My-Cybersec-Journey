@@ -1,28 +1,2 @@
-# Certifications
 
-This folder contains my study notes, resources, and progress for the certifications I'm pursuing.  
-Each certification has its own subfolder with organized notes, commands, lab steps, and references.
-
-## Structure
-
-- **SC-200/** – Microsoft Security Operations Analyst  
-  - Study notes and key concepts  
-  - Lab configurations and alerts  
-  - Practice queries and scripts  
-- **SC-100/** – Microsoft Cybersecurity Architect *(planned)*  
-  - Will contain architecture diagrams, frameworks, and preparation notes  
-- **Other Certifications/** *(future)*  
-  - Placeholder for additional certifications like CISSP, CISM, or OSCP  
-
-## How I Use This
-
-- Document important concepts and scenarios for quick revision.  
-- Keep screenshots and evidence from labs in a consistent structure.  
-- Track my learning progress in a version-controlled environment.
-
-## Next Steps
-
-- Continue refining SC-200 notes as I prepare for the exam.  
-- Begin SC-100 study and documentation after SC-200 completion.  
-- Add templates for consistent documentation across certifications.
 
