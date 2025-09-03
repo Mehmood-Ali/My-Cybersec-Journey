@@ -3,15 +3,30 @@
 ## Overview
 This repository documents my journey toward achieving the **Microsoft Certified: Identity and Access Administrator Associate (SC-300)** certification.
 
-I’ve started learning some of the modules and concepts but have currently placed my SC-300 study on hold. This is to focus on other certifications, such as **SC-200** and **SC-100**, which align better with my immediate goals. Once those are completed, I will resume my SC-300 preparation.
+I have started learning the SC-300 modules but have temporarily **paused this study** to focus on other certifications, such as **SC-200** and **SC-100**, which align more closely with my immediate goals.  
+Once those are completed, I will resume SC-300 preparation in a more structured way.
 
 ## Current Status
 - **Status:** In progress (paused)
 - **Reason for Pause:** Prioritizing other Microsoft Security certifications.
 - **Progress So Far:**  
   - Covered initial identity management modules.  
-  - Completed a few hands-on labs in Azure AD and conditional access policies.  
+  - Completed a few hands-on labs in Azure AD and Conditional Access.  
   - Created preliminary notes and resources for later reference.
+
+## Study Checklist
+- [X] **Implement an identity management solution**  
+- [X] **Implement authentication and access management solutions**  
+- [X] **Implement access management for apps**  
+- [X] **Plan and implement identity governance**  
+- [X] **Practice with labs (Azure AD, Conditional Access, PIM, Identity Protection)**  
+- [X] **Attempt practice exams**  
+- [ ] **Schedule and take the certification exam**
+
+## Useful Links
+- [Microsoft Learn: SC-300 Study Path](https://learn.microsoft.com/en-us/certifications/exams/sc-300/)  
+- [Exam Skills Outline (PDF)](https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-300)  
+- [Certification Overview](https://learn.microsoft.com/en-us/certifications/identity-and-access-administrator/)  
 
 ## Next Steps
 - Resume SC-300 study sessions after completing SC-200 and SC-100.  
