@@ -8,7 +8,7 @@ Using Microsoft Learn during the SC-200 exam is helpful, but the time limit mean
 ### CTRL + F Doesnt work in the exam. ###
 
 
-##Understand the Types of Questions##
+## Understand the Types of Questions ##
 
 Most SC-200 questions fall into categories like:
 
@@ -24,7 +24,7 @@ Knowing the category will help you pick the right keywords fast.
 
 
 
-##Use Smart Search Queries##
+## Use Smart Search Queries ##
 
 When using the Learn pane:
 
@@ -74,24 +74,4 @@ If the answer will take too long to locate, mark the question for review and mov
 You can always return to it later if you have time left.
 
 
-Tips i Used and memorise before the Exam
 
-
- To navigate to All KQL Operators and view their syntax search in Microsoft learn - “KQL Quick reference” 
- To view all table names and check which column they contain - “advanced hunting schema” then change the 
-filter to MS defender XDR 
- To check the roles and their permissions - “RBAC roles” the change the filter to MS sentinel 
- To search license requirement, search individually 
- To search all defender for cloud apps policies in learn – search “policies” and change the filter to defender 
-for cloud apps, click on the “Create anomaly detection policies” then from the left navigation pane click on 
-“Control cloud apps with policies > Overview” 
- To search all attack surface reduction rules – search “attack surface reduction rules” from learn and click on 
-“Use attack surface reduction rules to prevent malware infection” then from the left navigation pane click on 
-“Attack surface reduction rules reference” which is two level below. 
- To search for ASIM parsers search - “asim” 
- To search for strong identifiers search – “asim” then click “Advanced Security Information Model (ASIM) 
-schemas” then from the left navigation pane go to “References” down below (Last second option) then 
-“detection and analysis references” then “entities reference” 
- To search the event viewer codes search - “Active Directory Domain Services overview” then click “security 
-identifiers” (second option) then from the left navigation pane scroll down and click on “Best practices for 
-securing Active Directory” then “appendix L events to monitor” 
