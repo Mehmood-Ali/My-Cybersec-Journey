@@ -1,0 +1,252 @@
+This file contains 90 Quick refreshers for ##Manage a security operations environment (20–25%)##
+
+
+
+
+Q: What Azure role is often used to administer a Sentinel workspace?
+A: Azure Sentinel Contributor.
+
+Q: In Sentinel, what feature allows you to connect and ingest logs from Azure resources?
+A: Microsoft connectors (e.g., Azure Activity, Diagnostics settings).
+
+Q: Which detection method uses parsing schemas like ASIM in Sentinel?
+A: Analytics rules using ASIM parsers.
+
+Q: What is the first step to design a Sentinel workspace?
+A: Plan workspace location, tier, and log retention.
+
+Q: What portal would you use to configure alert notification rules in Defender XDR?
+A: Microsoft Defender portal.
+
+Q: What command language is used for hunting in Sentinel?
+A: Kusto Query Language (KQL).
+
+Q: What Defender XDR feature helps automatically investigate alerts?
+A: Automated investigation and response capabilities.
+
+Q: What help alerts get grouped together in Defender XDR?
+A: Alert tuning, suppression, and correlation.
+
+Q: What's required to collect Windows Security events via Sentinel?
+A: Set up Windows Event Forwarding (WEF) or data collection rules.
+
+Q: Which Microsoft tool helps detect unmanaged devices?
+A: Microsoft Defender for Endpoint (via device discovery).
+
+Q: What Defender XDR component helps reduce attack surface on endpoints?
+A: Exposure Management.
+
+Q: What workspace component stores logs from custom sources?
+A: Custom log tables.
+
+Q: In Sentinel playbooks, what service powers automation?
+A: Azure Logic Apps.
+
+Q: Which Microsoft tool unifies threat signals across identities, endpoints, and email?
+A: Microsoft 365 Defender.
+
+Q: What do you configure to keep Sentinel logs for a longer period?
+A: Log retention (retention policies).
+
+Q: What tool helps detect Azure resource risks across clouds?
+A: Microsoft Defender for Cloud.
+
+Q: What type of data collection format can be used with Sentinel besides Azure connectors?
+A: Syslog or CEF (Common Event Format).
+
+Q: In Defender XDR, what setting enables automatic attack disruption?
+A: Automatic attack disruption toggle.
+
+Q: Which Defender for Endpoint feature groups devices logically?
+A: Device groups.
+
+Q: What should you configure to get vulnerability notifications in XDR?
+A: Vulnerability alert notification rules.
+
+Q: What resource in Defender XDR helps track device risk posture?
+A: Exposure Management dashboard.
+
+Q: Which Sentinel component can visualize KQL data with graphics?
+A: Workbooks.
+
+Q: What allows Sentinel to ingest logs from on-prem servers?
+A: Data collection rules and agents.
+
+Q: What Defender tool can automatically apply endpoint policies like ASR rules?
+A: Microsoft Defender for Endpoint.
+
+Q: What is the purpose of automated investigation in Defender XDR?
+A: To investigate alerts without manual intervention.
+
+Moderate (26–60)
+
+Q: How do you highlight suspicious findings during hunting in Sentinel?
+A: Use bookmarks.
+
+Q: What determines who can manage Sentinel (RBAC)?
+A: Assigning built-in RBAC roles (e.g., Sentinel Contributor).
+
+Q: Name two ways to ingest Windows events to Sentinel.
+A: Windows Event Forwarding (WEF) or Data Collection Rules.
+
+Q: What service in Defender XDR helps remove lateral movement devices?
+A: Automatic attack disruption.
+
+Q: What must you plan for when designing a Sentinel workspace?
+A: Log types, storage costs, retention policies.
+
+Q: How does Defender for Cloud identify unprotected resources?
+A: Through resource discovery and vulnerability scanning.
+
+Q: What feature allows you to route Sentinel incidents to a playbook?
+A: Automation rules.
+
+Q: What must be configured before enabling Anomalous RDP Login Detection in Sentinel?
+A: Collect Security events (Event ID 4624) and set an event set other than None 
+Quizlet
+.
+
+Q: Which tool helps manage permissions for automated playbook actions?
+A: Azure RBAC roles.
+
+Q: What Sentinel tool helps ingest log data via scripts?
+A: Custom log ingestion.
+
+Q: What portal can you use to configure endpoint policies like tamper protection?
+A: Microsoft Defender for Endpoint portal.
+
+Q: How do you ensure fewer false positives in XDR alerts?
+A: Tune suppression and correlation settings.
+
+Q: What feature in Sentinel helps store older logs for long-term compliance?
+A: Archive or log retention settings.
+
+Q: To target a geographic region in Defender for Cloud, what should you configure?
+A: Just-In-Time (JIT) VM access or regional policies.
+
+Q: What Sentinel mechanism allows for multi-step alert response?
+A: Playbooks with Logic Apps.
+
+Q: What table type lets you import external data into Sentinel?
+A: Custom log tables.
+
+Q: How can you detect device groups at risk via Defender for Endpoint?
+A: Use device grouping and Exposure dashboard.
+
+Q: What do Sentinel roles control?
+A: Access to data, configuration, and investigation features.
+
+Q: How do you optimize ingestion costs in Sentinel?
+A: Filter data sources by log types, optimize retention.
+
+Q: What is Defender XDR’s automated policy response called?
+A: Automated attack disruption.
+
+Q: How do you integrate third-party logs into Sentinel?
+A: Use CEF/Syslog connectors or API.
+
+Q: What is the default retention for Sentinel?
+A: (Varies; expect to know in exam context)
+
+Q: How do you onboard devices to Defender for Endpoint?
+A: Use onboarding scripts or policies.
+
+Q: What Defender XDR feature helps escalate alerts to incidents?
+A: Incident management.
+
+Q: How can you ingest security alerts from other Microsoft security products to Sentinel?
+A: Use built-in connectors like Microsoft 365 Defender.
+
+Difficult (61–85)
+
+Q: Describe how to configure exposure scoring in Defender XDR.
+A: Use Exposure Management; define groups, automation, and monitor risk trends.
+
+Q: How do you design log retention balancing compliance and cost?
+A: Choose retention period based on policies and archive older logs.
+
+Q: How to manage Sentinel ingestion of high-volume logs from multiple Azure subscriptions?
+A: Use workspace design with multiple gardens or data exclusions per source.
+
+Q: How would you discover shadow-IT apps in Defender for Cloud Apps?
+A: Use Cloud Discovery dashboards.
+
+Q: How to configure long-term storage for Sentinel logs in a storage account?
+A: Link to a Log Analytics workspace with export rules.
+
+Q: Explain Defender XDR automatic investigation–how do endpoints get remediated automatically?
+A: Automated response actions act upon alerts, like isolating devices.
+
+Q: How can Sentinel playbooks act on on-prem resources?
+A: Use hybrid connectors like Logic App connectors (e.g., on-prem gateway).
+
+Q: How do you ensure minimal latency when ingesting Windows events to Sentinel?
+A: Use WEF or deploy agents close to sources, compress data, tune collection rules.
+
+Q: How to prioritize alerts based on exposure risk in Defender XDR?
+A: Combine exposure management scores with alert severity.
+
+Q: How would you implement multi-tenant Sentinel workspace architecture?
+A: Use Azure Lighthouse or multi-workspace design.
+
+Q: How to tune Sentinel analytics to reduce duplicates?
+A: Refine detection queries, configure suppression and thresholds.
+
+Q: How to onboard Linux servers to Defender for Endpoint?
+A: Use packages and configuration scripts supported in Defender.
+
+Q: How to design Sentinel workspace to support regulatory compliance in different jurisdictions?
+A: Use regional workspaces, configure retention to meet laws.
+
+Q: How can you enrich Sentinel incidents with external threat intel?
+A: Use Threat Intelligence platforms or TI connectors in Sentinel.
+
+Q: Optimize defender exposure alerts frequency—how?
+A: Use device automation levels and group tuning in Exposure Management.
+
+Very Difficult (86–100)
+
+Q: How would you architect a Sentinel workspace that uses minimal ingestion cost but supports large-scale KQL hunting across months?
+A: Use tiered retention, archive older logs, leverage query pools.
+
+Q: You need near-real time collection of VMWare logs to Sentinel in an on-prem environment—how do you design this?
+A: Deploy WEF or Syslog agent on VM hosts, configure forwarding, tunnel via Azure Data Collector.
+
+Q: How do you manage multi-cloud workloads in Defender for Cloud with unified exposure scoring?
+A: Enable Capability via Defender, integrate Azure, AWS, GCP, tune secure score thresholds.
+
+Q: Implement hybrid playbook responding to Sentinel alert by isolating device in on-prem via ServiceNow integration—explain architecture.
+A: Use Logic App connector to ServiceNow and on-prem agent, trigger incident response.
+
+Q: How would you tune KQL-based alerts in Sentinel to minimize false positives during phishing campaign?
+A: Add context filters (IP ranges, geolocation), adjust thresholds, test with bookmarks.
+
+Q: Design endpoint grouping strategy in Defender XDR to respond differently by risk tiers.
+A: Use dynamic device groups (e.g., high-risk group), apply different automation levels.
+
+Q: How do you ensure Sentinel analytic rules scale across 10M daily log events?
+A: Use efficient KQL, tune detection frequency, shard queries, use high-performance workspace tier.
+
+Q: How to extend Sentinel to ingest IoT device logs via CEF and analyze with KQL?
+A: Create CEF connector, map fields to custom tables, build KQL hunts.
+
+Q: Sentinel workspace is overloaded—how do you architect scale without downtime?
+A: Add parallel workspace, move connectors gradually, use Azure Monitor workspace peering.
+
+Q: How to automate custom alert suppression policies across Sentinel incidents based on exposure risk in Defender XDR?
+A: Use API calls to cross-reference exposure scores, then programmatically update suppression rules.
+
+Q: Architect a data ingestion pipeline that encrypts sensitive logs before ingesting to Sentinel?
+A: Use client-side encryption or Azure data collection with encryption and Key Vault.
+
+Q: Defender for Endpoint shows unmanaged devices—how do you onboard them at scale using automation?
+A: Use group policy or MDM to apply onboarding script; use automation runbooks.
+
+Q: How would you correlate Sentinel Incidents with Defender XDR Incidents?
+A: Use custom API integration or playbooks that query both service APIs and correlate by entity.
+
+Q: How can you enforce unified retention policy across Sentinel and Defender for Cloud alerts to minimize forensic gaps?
+A: Use log retention configuration and archive rules across services, and policy management.
+
+Q: How do you implement proactive threat hunting across Sentinel logs spanning months while maintaining query performance?
+A: Use bookmark hunts, summarize older data to storage, utilize query pools for historical lookups.
