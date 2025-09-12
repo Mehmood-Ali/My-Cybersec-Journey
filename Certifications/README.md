@@ -3,6 +3,20 @@
 Welcome to my **Certifications Knowledge Base Repository** 🎓.  
 This repository is a collection of my structured notes, diagrams, labs, and study materials for multiple **cloud, security, and networking certifications**.  
 
+
+## 📌 Certification Progress Table
+
+- [X] ITIL v4 Foundation                     Completed                       Issued     May  2025
+- [X] ISC2 CC                                Completed                       Issued     Sept 2024
+- [X] Aviatrix ACE-MNA                       Completed                       Issued     Sept 2025
+- [X] Cisco Ethical Hacker                   Completed                       Issued     Aug  2025
+- [ ] Google Cloud Cybersecurity             In-Progress                     Estimated  Oct 2025
+- [ ] Microsoft SC-200                       In-Progress                     Estimated  Oct 2025
+- [ ] Microsoft SC-100                       Planned                         Estimated  Feb 2026
+- [ ] Microsoft SC-300                       Planned                         Estimated  May 2026
+- [ ] Microsoft AZ-104                       Planned                         Estimated  Dec 2026
+- [ ] VMware Cloud Foundation (VCF)          Planned                         Estimated  Mar 2026
+
 The purpose of this repo is to:
 - Keep all my certification notes in one place.
 - Provide a structured, easy-to-access knowledge base.
@@ -35,11 +49,19 @@ Each certification has its own folder with a dedicated `README.md` file containi
 ### 🌐 Cybersecurity & Ethical Hacking
 - [Cisco Ethical Hacker](./Cisco-Ethical-Hacker/README.md)  
 - [Google Cloud Cybersecurity Certificate](./Google-Cloud-Cybersecurity/README.md)  
+- [ISC2 Certified in Cybersecurity (CC)](./ISC2-CC/README.md)  
 
 ---
 
 ### ☁️ Cloud Networking
 - [Aviatrix Certified Engineer – Multicloud Network Associate (ACE-MNA)](./Aviatrix-ACE-MNA/README.md)  
+
+---
+
+### 📊 Foundational & Governance Certifications
+- [ITIL v4 Foundation](./ITIL-v4/README.md)  
+- [ISC2 Certified in Cybersecurity (CC)](./ISC2-CC/README.md)
+- VMware Cloud Foundation (VCF)
 
 ---
 
@@ -50,14 +72,10 @@ Each certification has its own folder with a dedicated `README.md` file containi
 
 ---
 
-## 📌 Progress Tracker
-- [ ] SC-200 – In Progress  
-- [ ] SC-100 – Planned  
-- [ ] SC-300 – Planned  
-- [ ] AZ-104 – Planned  
-- [x] Cisco Ethical Hacker 
-- [x] Aviatrix ACE-MNA
-- [ ] Google Cloud Cybersecurity Certificate – In Progress  
+
+
+   
+
 
 ---
 
