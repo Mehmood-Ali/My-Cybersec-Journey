@@ -6,16 +6,16 @@ This repository is a collection of my structured notes, diagrams, labs, and stud
 
 ## 📌 Certification Progress Table
 
-- [X] ITIL v4 Foundation                     Completed                       Issued     May  2025
-- [X] ISC2 CC                                Completed                       Issued     Sept 2024
-- [X] Aviatrix ACE-MNA                       Completed                       Issued     Sept 2025
-- [X] Cisco Ethical Hacker                   Completed                       Issued     Aug  2025
-- [ ] Google Cloud Cybersecurity             In-Progress                     Estimated  Oct 2025
-- [ ] Microsoft SC-200                       In-Progress                     Estimated  Oct 2025
-- [ ] Microsoft SC-100                       Planned                         Estimated  Feb 2026
-- [ ] Microsoft SC-300                       Planned                         Estimated  May 2026
-- [ ] Microsoft AZ-104                       Planned                         Estimated  Dec 2026
-- [ ] VMware Cloud Foundation (VCF)          Planned                         Estimated  Mar 2026
+- [X] ITIL v4 Foundation              |       Completed                       Issued     May  2025
+- [X] ISC2 CC                         |      Completed                       Issued     Sept 2024
+- [X] Aviatrix ACE-MNA                |     Completed                       Issued     Sept 2025
+- [X] Cisco Ethical Hacker            |      Completed                       Issued     Aug  2025
+- [ ] Google Cloud Cybersecurity      |      In-Progress                     Estimated  Oct 2025
+- [ ] Microsoft SC-200                |      In-Progress                     Estimated  Oct 2025
+- [ ] Microsoft SC-100                |      Planned                         Estimated  Feb 2026
+- [ ] Microsoft SC-300                |      Planned                         Estimated  May 2026
+- [ ] Microsoft AZ-104                |      Planned                         Estimated  Dec 2026
+- [ ] VMware Cloud Foundation (VCF)   |      Planned                         Estimated  Mar 2026
 
 The purpose of this repo is to:
 - Keep all my certification notes in one place.
