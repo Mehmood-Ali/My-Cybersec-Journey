@@ -1,9 +1,19 @@
 # ITIL v4 Foundation Certification Notes
 
 Welcome to my **ITIL v4 Foundation Notes Repository** 📘.  
-This folder is dedicated to documenting my preparation for the **ITIL v4 Foundation certification**.  
+This folder is dedicated to documenting my preparation for the **ITIL v4 Foundation certification** and now also serves as proof of my achievement.
 
-The purpose is to maintain structured notes, key concepts, and references for IT Service Management (ITSM) based on the ITIL v4 framework.
+---
+
+## 🏆 Achievement
+- **Certification:** ITIL v4 Foundation  
+- **Status:** ✅ Achieved  
+- **Score:** 🥇 40/40 (Perfect Score)  
+- **Date Achieved:** May 2025  
+- **Issuing Body:** PeopleCert  
+
+📜 **Certificate:** [Placeholder – Certificate will be uploaded here]  
+📊 **Score Report:** [Placeholder – Scorecard will be uploaded here]  
 
 ---
 
@@ -61,14 +71,15 @@ It focuses on aligning IT services with business value delivery through a holist
 - 📖 Document summaries of ITIL v4 concepts.  
 - 📝 Track key exam notes and sample questions.  
 - 🧩 Create diagrams for the Service Value System and Value Chain.  
+- 🏆 Showcase certification achievement and related documents.  
 
 ---
 
 ## 🚀 Goals
 - Build a strong understanding of ITIL v4 concepts.  
-- Use these notes to prepare for the ITIL v4 Foundation exam.  
-- Reuse ITIL principles in real-world ITSM and cybersecurity work.  
+- Apply ITIL principles in real-world ITSM and cybersecurity work.  
+- Use this repo as both a **learning resource** and a **certification showcase**.  
 
 ---
 
-✨ *This repository will grow as I deepen my ITIL v4 knowledge.*  
+✨ *This repository reflects my ITIL v4 journey – from preparation to certification success.*  
