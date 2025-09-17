@@ -1,4 +1,4 @@
-# Low Power Fault Tolerant Reversible Decoder Using MOS
+# Low Power Fault Tolerant Reversible Decoder Using MOS Transistors
 
 ## 📑 Index
 1. [Introduction](#introduction)  
