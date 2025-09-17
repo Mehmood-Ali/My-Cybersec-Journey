@@ -12,7 +12,7 @@ This folder is dedicated to documenting my preparation for the **ITIL v4 Foundat
 - **Date Achieved:** May 2025  
 - **Issuing Body:** PeopleCert  
 
-📜 **Certificate:** [Placeholder – Certificate will be uploaded here]  
+📜 **Certificate:** [Certificate] (/ITILv4 Certificate.pdf)  
 📊 **Score Report:** [Placeholder – Scorecard will be uploaded here]  
 
 ---
