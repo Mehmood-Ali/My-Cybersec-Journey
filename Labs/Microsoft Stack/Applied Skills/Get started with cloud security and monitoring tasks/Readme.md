@@ -5,7 +5,7 @@ This study guide provides a summary of the topics covered in the assessment lab,
 
 ## Tasks at a glance
 
-#Perform basic cloud workload protection platform (CWPP) tasks
+# Perform basic cloud workload protection platform (CWPP) tasks
 
 Enable a Microsoft Defender for Cloud (CWPP) plan
 
@@ -18,7 +18,7 @@ Review a health report for a specific resource
 Supporting module (s):
 [Configure and manage threat protection by using Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/training/modules/microsoft-defender-cloud-threat-protection/)
 
-#Perform basic key management tasks
+# Perform basic key management tasks
 
 Manage keys
 
