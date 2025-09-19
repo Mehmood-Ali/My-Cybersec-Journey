@@ -60,6 +60,8 @@ Next, add a new secret to the vault.
 <img width="1341" height="941" alt="image" src="https://github.com/user-attachments/assets/1af6a467-c978-4846-90f1-f4587381f532" />
 <img width="955" height="835" alt="image" src="https://github.com/user-attachments/assets/1b7442ec-e66b-4783-bc62-772f3c889cc9" />
 <img width="598" height="986" alt="image" src="https://github.com/user-attachments/assets/7acfcc75-52ef-4504-a467-77e5ab958ad1" />
+<img width="967" height="639" alt="image" src="https://github.com/user-attachments/assets/aefdb709-9eb2-4850-a278-4f88f242dcba" />
+
 
 
 In the left menu pane, under Objects, select Secrets. The Secrets pane appears for your key vault.
@@ -71,6 +73,11 @@ Enter a name, value, and (optional) content type. An example follows.
 Screenshot showing the Create a secret pane in the Azure portal for Azure Key Vault.
 
 Select Create to add the secret. The Secrets pane reappears.
+
+<img width="1049" height="786" alt="image" src="https://github.com/user-attachments/assets/3fb39747-c17c-470e-a39d-4c1313d13c6e" />
+<img width="1016" height="814" alt="image" src="https://github.com/user-attachments/assets/e65e1e04-8f62-49e5-9150-95dde33613e0" />
+
+
 
 Show the secret
 Finally, verify that the secret value has been set.
@@ -88,17 +95,24 @@ You can create and retrieve secrets from the Azure Key Vault as long as you're a
 
 PowerShell
 
-Copy
+<img width="1837" height="833" alt="image" src="https://github.com/user-attachments/assets/4ee04d1e-efd7-457a-91fb-acc748521667" />
+
+
+
 Get-AzKeyVault
 This command returns the created vault with the name VaultamortDiary.
 
 Output
 
 Copy
-Vault Name          : VaultamortDiary
-Resource Group Name : Learn-4f01665a-1272-46a8-9c16-83bbf146494e
-Region              : northcentralus
-Resource ID         : /subscriptions/xyz/providers/Microsoft.KeyVault/vaults/VaultamortDiary
+PS /home/azureuser> get-azkeyvault
+
+Vault Name          : Keyvault-Al123456
+Resource Group Name : learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02
+Location            : australiaeast
+Resource ID         : /subscriptions/8b6001cd-a329-4999-8dbb-3b3261bb100a/resourceGroups/learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02/providers/Microsoft.KeyVault/vaults/Keyvault-Al123456
+Tags                : 
+
 With the name of the vault and the key, you can retrieve the secret value:
 
 PowerShell
@@ -109,20 +123,26 @@ This command returns our set value:
 
 Output
 
-Copy
-Vault Name   : vaultamortdiary
-Name         : VaultamortDiary
-Version      : ff4b23af35bf4ba9a5c8792227d00ff6
-Id           : https://vaultamortdiary1972.vault.azure.net:44
-               3/secrets/VaultamortDiary/ff4b23af35bf4ba9
-               a5c8792227d00ff6
-Enabled      : True
-Expires      :
-Not Before   :
-Created      : 12/17/2020 7:54:03 PM
-Updated      : 12/17/2020 7:54:03 PM
-Content Type : text
-Tags         :
-
+Vault Name                          : Keyvault-Al123456
+Resource Group Name                 : learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02
+Location                            : australiaeast
+Resource ID                         : /subscriptions/8b6001cd-a329-4999-8dbb-3b3261bb100a/resourceGroups/learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02/providers/Microsoft.KeyVault/vaults/Keyvault-Al123456
+Vault URI                           : https://keyvault-al123456.vault.azure.net/
+Tenant ID                           : 604c1504-c6a3-4080-81aa-b33091104187
+SKU                                 : Standard
+Enabled For Deployment?             : False
+Enabled For Template Deployment?    : False
+Enabled For Disk Encryption?        : False
+Enabled For RBAC Authorization?     : True
+Soft Delete Enabled?                : True
+Soft Delete Retention Period (days) : 90
+Purge Protection Enabled?           : 
+Public Network Access               : Enabled
+Access Policies                     : 
+Network Rule Set                    : 
+                                      Default Action                             : Allow
+                                      Bypass                                     : None
+                                      IP Rules                                   : 
+                                      Virtual Network Rules                      : 
 
 
