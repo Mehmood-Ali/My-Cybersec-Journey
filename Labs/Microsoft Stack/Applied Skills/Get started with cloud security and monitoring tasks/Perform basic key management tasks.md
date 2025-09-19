@@ -146,3 +146,36 @@ Network Rule Set                    :
                                       Virtual Network Rules                      : 
 
 
+Manage Certificates
+
+
+<img width="1242" height="684" alt="image" src="https://github.com/user-attachments/assets/adf86226-9e50-4aa4-b9c8-c2d267c70344" />
+
+<img width="1415" height="910" alt="image" src="https://github.com/user-attachments/assets/2d86ace6-722e-4583-8230-d44bc974ebc8" />
+<img width="654" height="919" alt="image" src="https://github.com/user-attachments/assets/d2977ea9-b837-487a-938e-3442abe060ef" />
+<img width="1242" height="684" alt="image" src="https://github.com/user-attachments/assets/9f9358d3-654a-47b5-ad25-f11cb1c99f9d" />
+
+Use Certificates in web apps
+
+Azure App Service integration
+Once you have a public/private key pair certificate in your Azure Key Vault, you can easily associate it to your web app through the Azure portal.
+
+Select TLS/SSL settings under Settings.
+
+Select the Private Key Certificate (.pfx) tab.
+
+Select Import Key Vault Certificate as shown in the following screenshot.
+
+<img width="1440" height="652" alt="image" src="https://github.com/user-attachments/assets/65b55042-deb3-41c2-80e2-1e1f26a18361" />
+
+
+Screenshot of the Azure portal where you can load a Key Vault certificate to an Azure App Service web app.
+
+You can then select the vault, which must be in the same subscription, and the secret containing the certificate.
+
+The certificate must be an X.509 cert with a content type of application/x-pkcs12 and can't have a password.
+Finally, once the certificate is in place, you want to set up a custom domain. There's already a built-in certificate for *.azurewebsites.net. You can then associate your custom domain with the certificate you've assigned so the server uses your certificate to secure the connection to the browser.
+
+
+
+
