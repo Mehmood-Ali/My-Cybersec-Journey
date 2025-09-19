@@ -108,9 +108,13 @@ Copy
 PS /home/azureuser> get-azkeyvault
 
 Vault Name          : Keyvault-Al123456
+
 Resource Group Name : learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02
+
 Location            : australiaeast
+
 Resource ID         : /subscriptions/8b6001cd-a329-4999-8dbb-3b3261bb100a/resourceGroups/learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02/providers/Microsoft.KeyVault/vaults/Keyvault-Al123456
+
 Tags                : 
 
 With the name of the vault and the key, you can retrieve the secret value:
@@ -124,21 +128,37 @@ This command returns our set value:
 Output
 
 Vault Name                          : Keyvault-Al123456
+
 Resource Group Name                 : learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02
+
 Location                            : australiaeast
+
 Resource ID                         : /subscriptions/8b6001cd-a329-4999-8dbb-3b3261bb100a/resourceGroups/learn-a2990acf-b5c9-40ca-8b4e-da608ddddd02/providers/Microsoft.KeyVault/vaults/Keyvault-Al123456
+
 Vault URI                           : https://keyvault-al123456.vault.azure.net/
+
 Tenant ID                           : 604c1504-c6a3-4080-81aa-b33091104187
+
 SKU                                 : Standard
+
 Enabled For Deployment?             : False
+
 Enabled For Template Deployment?    : False
+
 Enabled For Disk Encryption?        : False
+
 Enabled For RBAC Authorization?     : True
+
 Soft Delete Enabled?                : True
+
 Soft Delete Retention Period (days) : 90
+
 Purge Protection Enabled?           : 
+
 Public Network Access               : Enabled
+
 Access Policies                     : 
+
 Network Rule Set                    : 
                                       Default Action                             : Allow
                                       Bypass                                     : None
@@ -146,7 +166,7 @@ Network Rule Set                    :
                                       Virtual Network Rules                      : 
 
 
-Manage Certificates
+## Manage Certificates
 
 
 <img width="1242" height="684" alt="image" src="https://github.com/user-attachments/assets/adf86226-9e50-4aa4-b9c8-c2d267c70344" />
