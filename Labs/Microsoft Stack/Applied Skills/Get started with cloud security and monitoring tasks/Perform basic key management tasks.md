@@ -193,8 +193,29 @@ Screenshot of the Azure portal where you can load a Key Vault certificate to an 
 
 You can then select the vault, which must be in the same subscription, and the secret containing the certificate.
 
+
+
+
+
 The certificate must be an X.509 cert with a content type of application/x-pkcs12 and can't have a password.
 Finally, once the certificate is in place, you want to set up a custom domain. There's already a built-in certificate for *.azurewebsites.net. You can then associate your custom domain with the certificate you've assigned so the server uses your certificate to secure the connection to the browser.
+
+## Authorize users to access key
+
+<img width="1385" height="873" alt="image" src="https://github.com/user-attachments/assets/fda22d75-9933-4b24-97b0-2e7b5538a8ba" />
+
+<img width="1288" height="796" alt="image" src="https://github.com/user-attachments/assets/833580e4-063f-4837-b83f-8289707824ff" />
+
+<img width="1413" height="786" alt="image" src="https://github.com/user-attachments/assets/da96b1b3-09c4-4d0c-ad29-8bcf99779f66" />
+
+<img width="1628" height="761" alt="image" src="https://github.com/user-attachments/assets/f4530dc2-5212-44f3-ba7f-fd037db46d05" />
+<img width="981" height="659" alt="image" src="https://github.com/user-attachments/assets/3d7a8acf-f522-475e-bfad-8082ceee6be3" />
+<img width="967" height="527" alt="image" src="https://github.com/user-attachments/assets/2bc7971c-43b5-40d7-8731-854fd5e8e09f" />
+<img width="1078" height="814" alt="image" src="https://github.com/user-attachments/assets/abc0ec21-84af-44b1-97ab-d716a7c6230c" />
+<img width="1265" height="634" alt="image" src="https://github.com/user-attachments/assets/330dae7b-761d-47c1-b9a2-9e94b1cf3e15" />
+
+
+
 
 
 
