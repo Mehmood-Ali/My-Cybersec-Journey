@@ -135,3 +135,95 @@ Keyword Dictionary vs. Keyword List: Keyword dictionaries offer easier managemen
 Supporting Elements: You can add supporting elements to your SIT to increase the confidence level and accuracy of the detection. 
 
 Existing Keyword Lists: You can also choose to use an existing keyword list by selecting its ID if it already exists in your environment. 
+
+## how to Create a custom sensitive information type from a built-in sensitive information type in purview
+
+To create a custom sensitive information type (SIT) in Microsoft Purview from a built-in SIT, navigate to the Information Protection section, select Sensitive info types, and click Create sensitive info type to define your new SIT by selecting patterns, which can include keywords, regex, or EDM classifiers to identify sensitive data.
+
+You can also copy and modify an existing SIT by exporting its XML definition and then uploading the modified XML as a new rule, as per the Microsoft Learn documentation. 
+
+Using the Purview Portal (UI)
+
+Sign in: to the Microsoft Purview portal at purview.microsoft.com. 
+
+Navigate to Information Protection > Classifiers > Sensitive info types. 
+
+Select Create sensitive info type. 
+
+Fill in the Name and Description for your new SIT. 
+
+Choose Create pattern to define the elements that will identify your sensitive information. 
+
+Define your pattern by choosing a Primary element, such as:
+
+Regular expression: Use text patterns to detect information. 
+
+Keyword list: A collection of words or phrases to identify. 
+
+Keyword dictionary: For easier, larger-scale keyword management. 
+
+Function: A built-in component to help identify patterns. 
+
+Add Supporting elements, such as keywords or other patterns, to improve the accuracy and reduce false positives. 
+
+Assign a Confidence level (Low, Medium, or High) to indicate how certain Purview should be when flagging a match.
+
+Choose Done and then Create pattern if you need to define additional patterns for your SIT. 
+
+Select Next to set the recommended confidence level for the SIT. 
+
+Review your configuration and Submit to save your custom SIT. 
+
+Copying and Modifying an Existing SIT (XML) 
+
+Locate the XML file for the rule you want to modify.
+
+Copy: the XML definition from the file.
+
+Create a new sensitive information type.
+
+Paste: the copied XML into the template for the new rule.
+
+Modify: the necessary values within the XML to create your custom definition.
+
+Upload: the modified XML to save it as a new rule.
+
+## how to Create a document fingerprint classifier in purview
+
+To create a document fingerprint classifier in Microsoft Purview, navigate to Data Loss Prevention (or Information Protection) > Classifiers > Sensitive info types, and then select + Create Fingerprint based SIT.
+
+You will then name and describe the new classification, upload the template file that will serve as the "fingerprint," optionally adjust confidence level requirements, and then review and create the sensitive information type. 
+
+Step-by-Step Guide:
+
+Navigate to Classifiers: In the Microsoft Purview portal, go to Data Loss Prevention (or Information Protection).
+
+Access Sensitive Info Types: On the left-hand navigation menu, select Classifiers and then Sensitive info types. 
+
+Start Fingerprint Creation: On the Sensitive info types page, select the + Create Fingerprint based SIT option. 
+
+Provide Basic Information:
+
+Enter a Name for your new sensitive information type (SIT).
+
+Provide a clear Description for the SIT to explain its purpose. 
+
+Upload the Template:
+
+Click the option to Upload the file you want to use as the document fingerprint. This document will act as the unique signature for future documents you want to classify. 
+
+Configure Confidence Levels (Optional):
+
+You can adjust the requirements for each confidence level (low, medium, high) if desired. This controls how closely a document must match the fingerprint to be identified as sensitive. 
+
+Review and Create:
+
+Choose Next to move to the review screen. 
+
+Review your settings and then select Create to finalize the process. 
+
+Confirm Completion: A confirmation page will display when the creation is complete. 
+
+After creation, the Microsoft 365 search crawler will recrawl your content to identify documents that match this new document fingerprint, and you can then use it in DLP policies. 
+
+This video demonstrates the process of creating a document fingerprint:
