@@ -1,4 +1,4 @@
-###Zero Trust 
+### Zero Trust 
 
 This module explains Zero Trust, a security strategy based on the principle of "never trust, always verify," as a defense against cyberattacks and threats, ensuring users authenticate and validate before accessing resources. 
 
@@ -10,7 +10,7 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-#Traditional Perimeter-Based Approach 
+# Traditional Perimeter-Based Approach 
 
 • Emphasizes on protecting network access with on-premises firewalls and VPNs. 
 
@@ -24,7 +24,7 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-#Zero Trust Approach 
+# Zero Trust Approach 
 
 • Based on verifying users and devices, not just determining their location. 
 
@@ -38,11 +38,11 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-##Zero Trust Approach to Cybersecurity 
+## Zero Trust Approach to Cybersecurity 
 
  
 
-#Key Components of Zero Trust Approach 
+# Key Components of Zero Trust Approach 
 
 • Identity: Defined as users, services, and credentials used by applications and IoT devices. Controls and administers access to critical data and resources. 
 
@@ -58,11 +58,11 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-##Zero Trust Approach to Identities 
+## Zero Trust Approach to Identities 
 
  
 
-#Identities in Zero Trust 
+# Identities in Zero Trust 
 
 • Identities can be users, devices, or applications. 
 
@@ -72,7 +72,7 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-#Authentication and Authorization 
+# Authentication and Authorization 
 
 • Zero Trust strategy involves continually verifying users' identities and other properties. 
 
@@ -80,7 +80,7 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-#Authentication Methods 
+# Authentication Methods 
 
 • Passwords: Basic form of authentication based on known information. 
 
@@ -92,7 +92,7 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-#Strong and Weak Authentication 
+# Strong and Weak Authentication 
 
 • Strong authentication combines two or more factors to verify identity. 
 
@@ -100,7 +100,7 @@ Traditional Network Security Approaches and Zero Trust Approach
 
  
 
-#Identity and Access Management Overview 
+# Identity and Access Management Overview 
 
  
 
@@ -120,25 +120,25 @@ Traditional Network Security Approaches and Zero Trust Approach
 
 • Privileged access management (PAM) addresses user accounts with elevated permissions, oversees and monitors access privileges to sensitive data and resources, and governs which groups of users can access resources within the organization.
 
-##Endpoint Protection and Security
+## Endpoint Protection and Security
 
-#Zero Trust Principles
+# Zero Trust Principles
 • Implement a "never trust, always verify" approach across all endpoints.
 • Implement cloud-enforced security policies covering endpoint security, app protection, device compliance, device configuration, and risk posture.
 • Securely provision, configure, and keep up-to-date the operating system and apps running on devices.
 • Respond automatically and rapidly to security incidents and prevent extraction of organizational data from endpoints.
 • Establish an access control system that only allows access to data through policy controls.
 
-#Registering Endpoints with Cloud Identity Providers
+# Registering Endpoints with Cloud Identity Providers
 • Register all devices with identity providers.
 • Require modern authentication to manage identity information across the organization.
 • Use passwordless authentication tools to increase security by requiring physical evidence for access.
 
-#Grant Access Only to Cloud-Managed and Compliant Endpoints
+# Grant Access Only to Cloud-Managed and Compliant Endpoints
 • Grant access only to endpoints that meet security requirements.
 • Define requirements using compliance policies and set remediation rules.
 
-#Use Endpoint Threat Detection
+# Use Endpoint Threat Detection
 • Implement threat detection for all endpoints to monitor risk and control access.
 • Use threat detection to prioritize alerts, gain visibility into breaches, and take response actions to remediate threats.
 • Feed information such as device risk into endpoint compliance policies and access policies.
@@ -147,18 +147,18 @@ Traditional Network Security Approaches and Zero Trust Approach
 
 • An effective least privilege access management solution ensures correct level of access, secure endpoints, and effective compliance. 
 
-##Cloud Impact on Applications and Shadow IT
+## Cloud Impact on Applications and Shadow IT
 
-#Cloud Services and Applications
+# Cloud Services and Applications
 • Cloud services are computing services delivered and accessed over the internet.
 • Benefits of cloud applications include access from anywhere, rapid updates, different versions of the same app, and protection of app code.
 • However, the increasing reliance on cloud applications can introduce security risks.
 
-#Shadow IT
+# Shadow IT
 • The rise of cloud applications has led to an increase in the number and types of apps available.
 • Unauthorized apps can introduce security risks into the organization, such as accessing critical data, changing or removing data, locking data in exchange for ransom, or gaining control of devices or networks.
 
-#Zero Trust Approach to Cloud Applications
+# Zero Trust Approach to Cloud Applications
 • Organizations need to balance access to apps with ensuring control to protect themselves and their users from risks.
 • A Zero Trust framework can help organizations control and discover shadow IT, ensure appropriate permissions for app use, limit access based on real-time analytics, monitor abnormal behavior in apps, control user actions, and validate secure configuration options.
 
