@@ -1,4 +1,4 @@
-# 
+# https://youtu.be/1ApM1kkfb1Q
 
 # Lab 24: Manage the lifecycle of external users in Microsoft Entra Identity Governance settings
 
