@@ -1,4 +1,4 @@
-#
+# https://youtu.be/2tGeEy2PPyU
 
 Lab 12 - Manage Microsoft Entra smart lockout values
 Login type = Microsoft 365 admin
