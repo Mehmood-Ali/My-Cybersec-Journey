@@ -1,3 +1,5 @@
+# https://youtu.be/os1M8aU3iOA
+
 # Lab 14 - Enable sign in and user risk policies
 
 ### Login type = Microsoft 365 admin
