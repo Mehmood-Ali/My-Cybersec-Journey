@@ -884,113 +884,38 @@ Not:
 
 # Domain 1 Ultimate Memory Sheet
 
-Plain Text
-
-1
-
 Corporate Governance
-
-2
-
-\= Runs the business
-
-3
-
-4
+= Runs the business
 
 Security Governance
-
-5
-
-\= Security supports business goals
-
-6
-
-7
+= Security supports business goals
 
 Security Objective
-
-8
-
-\= Enable the business safely
-
-9
-
-10
+= Enable the business safely
 
 Accountability
-
-11
-
-\= Owns it
-
-12
-
-\= Cannot delegate
-
-13
-
-14
+= Owns it
+= Cannot delegate
 
 Responsibility
-
-15
-
-\= Does the work
-
-16
-
-\= Can delegate
-
-17
-
-18
+= Does the work
+= Can delegate
 
 Due Care
-
-19
-
-\= Doing security
-
-20
-
-21
+= Doing security
 
 Due Diligence
-
-22
-
-\= Proving security
-
-23
-
-24
+= Proving security
 
 ITAR
-
-25
-
-\= Military / Defense
-
-26
-
-27
+= Military / Defense
 
 EAR
-
-28
-
-\= Dual-use technology
-
-29
-
-30
+= Dual-use technology
 
 Wassenaar
+= International voluntary
 
-31
-
-\= International voluntary
 
 If you can remember only **one sentence** from this entire topic, make it this:
 
