@@ -1,4 +1,4 @@
-###### Copilot said:
+
 
 This is one of the **highest-value topics in the entire CISSP**.
 
@@ -1086,8 +1086,6 @@ Who accepts risk?
  
 Asset Owner
 
-2
-
 Not:
 
 -   Technician
@@ -1112,27 +1110,15 @@ NIST RMF has 7 steps:
  
 Prepare
 
-2
-
 Categorize
-
-3
 
 Select
 
-4
-
 Implement
-
-5
 
 Assess
 
-6
-
 Authorize
-
-7
 
 Monitor
 
@@ -1161,27 +1147,15 @@ Monitor = Ongoing reviews
  
 Prepare
 
-2
-
 Categorize
-
-3
 
 Select
 
-4
-
 Implement
-
-5
 
 Assess
 
-6
-
 Authorize
-
-7
 
 Monitor
 
@@ -1205,11 +1179,7 @@ Most people think Risk Management is:
  
 Math
 
-2
-
 Spreadsheets
-
-3
 
 Reports
 
