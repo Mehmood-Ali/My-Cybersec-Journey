@@ -153,10 +153,6 @@ Which is more important?
 
 Obviously:
 
-Plain Text
-
-1
-
 Card Payment System
 
 So it gets higher protection.
@@ -172,9 +168,6 @@ Which is more important?
 
 Obviously:
 
-Plain Text
-
-1
 
 Malware detection engine
 
@@ -188,21 +181,11 @@ Uses money.
 
 Examples:
 
-Plain Text
 
-1
 
 Asset A = $100,000
 
-2
-
-3
-
 Asset B = $2 million
-
-4
-
-5
 
 Asset C = $10 million
 
@@ -244,35 +227,20 @@ Much more common.
 
 Instead of money:
 
-Plain Text
 
-1
 
 High
 
-2
-
 Medium
-
-3
 
 Low
 
-4
-
 Or:
 
-Plain Text
-
-1
 
 Critical
 
-2
-
 Important
-
-3
 
 Normal
 
@@ -282,17 +250,9 @@ Normal
 
 Citizen data:
 
-Plain Text
-
-1
-
 Critical
 
 Office printer:
-
-Plain Text
-
-1
 
 Low
 
@@ -314,27 +274,11 @@ Next:
 
 Risk Analysis studies:
 
-Plain Text
-
-1
-
 Threats
-
-2
-
-3
 
 Vulnerabilities
 
-4
-
-5
-
 Likelihood
-
-6
-
-7
 
 Impact
 
@@ -372,9 +316,6 @@ Threats include:
 
 # Important CISSP Formula
 
-Plain Text
-
-1
 
 Threat = Potential Danger
 
@@ -396,18 +337,11 @@ A vulnerability is:
 
 Threat:
 
-Plain Text
-
-1
-
 Fire
 
 Vulnerability:
 
-Plain Text
-
-1
-
+ 
 No fire extinguishers
 
 * * *
@@ -416,33 +350,20 @@ No fire extinguishers
 
 Threat:
 
-Plain Text
-
-1
-
+ 
 Hackers
 
 Vulnerability:
 
-Plain Text
-
-1
-
+ 
 Unpatched servers
 
 * * *
 
 # Easy CISSP Memory Trick
 
-Plain Text
-
-1
-
+ 
 Threat = Bad Guy
-
-2
-
-3
 
 Vulnerability = Open Door
 
@@ -456,36 +377,23 @@ Bad guy cannot get in.
 
 CISSP loves this relationship:
 
-Plain Text
-
-1
-
 Threat + Vulnerability = Risk
 
 Example:
 
 Threat:
 
-Plain Text
-
-1
-
+ 
 Attacker
 
 Vulnerability:
 
-Plain Text
-
-1
-
+ 
 Weak Password
 
 Risk:
 
-Plain Text
-
-1
-
+ 
 Account Compromise
 
 * * *
@@ -520,10 +428,7 @@ Quick Kitchen Inspection
 
 Manager quickly walks around and asks:
 
-Plain Text
-
-1
-
+ 
 What could go wrong?
 
 That's STRIDE.
@@ -532,40 +437,25 @@ That's STRIDE.
 
 # STRIDE Breakdown
 
-Plain Text
-
-1
-
+ 
 S = Spoofing
 
-2
-
-3
-
+ 
 T = Tampering
 
-4
-
-5
+ 
 
 R = Repudiation
 
-6
-
-7
+ 
 
 I = Information Disclosure
 
-8
-
-9
+ 
 
 D = Denial of Service
 
-10
-
-11
-
+ 
 E = Elevation of Privilege
 
 * * *
@@ -604,16 +494,10 @@ This is the heavyweight approach.
 
 Think:
 
-Plain Text
-
-1
-
+ 
 STRIDE = Quick Check
 
-2
-
-3
-
+ 
 PASTA = Full Investigation
 
 * * *
@@ -645,16 +529,10 @@ DREAD prioritizes threats.
 
 ## Easy Memory Trick
 
-Plain Text
-
-1
-
+ 
 STRIDE Finds
 
-2
-
-3
-
+ 
 DREAD Decides
 
 First:
@@ -681,29 +559,19 @@ Restaurant
 
 Meteor strike:
 
-Plain Text
-
-1
-
+ 
 Very Low
 
 Kitchen fire:
 
-Plain Text
-
-1
-
+ 
 Moderate
 
 Employee mistake:
 
-Plain Text
-
-1
-
+ 
 High
 
-2
 
 * * *
 
@@ -719,18 +587,12 @@ Impact asks:
 
 Printer Offline:
 
-Plain Text
-
-1
-
+ 
 Low Impact
 
 Citizen Data Breach:
 
-Plain Text
-
-1
-
+ 
 High Impact
 
 * * *
@@ -739,21 +601,13 @@ High Impact
 
 Risk increases when:
 
-Plain Text
-
-1
-
+ 
 Likelihood increases
 
-2
-
-3
-
+ 
 OR
 
-4
-
-5
+ 
 
 Impact increases
 
@@ -775,10 +629,7 @@ How much will one incident cost?
 
 Formula:
 
-Plain Text
-
-1
-
+ 
 SLE = Asset Value × Exposure Factor
 
 * * *
@@ -787,26 +638,17 @@ SLE = Asset Value × Exposure Factor
 
 Database value:
 
-Plain Text
-
-1
-
+ 
 $100,000
 
 Exposure Factor:
 
-Plain Text
-
-1
-
+ 
 40%
 
 SLE:
 
-Plain Text
-
-1
-
+ 
 $40,000
 
 * * *
@@ -819,10 +661,7 @@ How many times yearly?
 
 Example:
 
-Plain Text
-
-1
-
+ 
 2 times per year
 
 ARO = 2
@@ -835,60 +674,39 @@ Annualized Loss Expectancy
 
 The famous CISSP formula.
 
-Plain Text
-
-1
-
+ 
 ALE = SLE × ARO
 
 * * *
 
 Example:
 
-Plain Text
-
-1
-
+ 
 SLE = $40,000
 
-2
-
-3
-
+ 
 ARO = 2
 
 Result:
 
-Plain Text
-
-1
-
+ 
 ALE = $80,000
 
 Meaning:
 
 This risk costs approximately:
 
-Plain Text
-
-1
-
+ 
 $80,000 per year
 
 * * *
 
 # Memory Trick
 
-Plain Text
-
-1
-
+ 
 One Loss = SLE
 
-2
-
-3
-
+ 
 Yearly Loss = ALE
 
 * * *
@@ -897,18 +715,12 @@ Yearly Loss = ALE
 
 Suppose a security control costs:
 
-Plain Text
-
-1
-
+ 
 $10,000
 
 But prevents:
 
-Plain Text
-
-1
-
+ 
 $80,000
 
 in annual losses.
@@ -949,10 +761,7 @@ Risk avoided.
 
 ## Easy Memory
 
-Plain Text
-
-1
-
+ 
 Avoid = Don't Play
 
 * * *
@@ -979,18 +788,12 @@ Insurance helps cover cost.
 
 You transfer:
 
-Plain Text
-
-1
-
+ 
 Financial Burden
 
 You DO NOT transfer:
 
-Plain Text
-
-1
-
+ 
 Accountability
 
 * * *
@@ -1097,21 +900,13 @@ Examples:
 
 Think:
 
-Plain Text
-
-1
-
+ 
 Before Incident
 
-2
-
-3
-
+ 
 vs
 
-4
-
-5
+ 
 
 After Incident
 
@@ -1221,10 +1016,7 @@ Better than nothing.
 
 ## Easy Memory
 
-Plain Text
-
-1
-
+ 
 Compensating = Backup Plan
 
 * * *
@@ -1291,10 +1083,7 @@ Accept the risk.
 
 Who accepts risk?
 
-Plain Text
-
-1
-
+ 
 Asset Owner
 
 2
@@ -1309,10 +1098,7 @@ The owner.
 
 Because:
 
-Plain Text
-
-1
-
+ 
 Owner = Accountable
 
 * * *
@@ -1323,10 +1109,7 @@ Think of RMF as a recipe for managing risk.
 
 NIST RMF has 7 steps:
 
-Plain Text
-
-1
-
+ 
 Prepare
 
 2
@@ -1375,10 +1158,7 @@ Monitor = Ongoing reviews
 
 # Memory Trick
 
-Plain Text
-
-1
-
+ 
 Prepare
 
 2
@@ -1407,10 +1187,7 @@ Monitor
 
 Say it as:
 
-Plain Text
-
-1
-
+ 
 PCSIAAM
 
 Or:
@@ -1425,10 +1202,7 @@ Silly, but memorable.
 
 Most people think Risk Management is:
 
-Plain Text
-
-1
-
+ 
 Math
 
 2
