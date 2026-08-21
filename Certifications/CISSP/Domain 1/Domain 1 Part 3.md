@@ -110,18 +110,8 @@ Simple definition:
 
 Think:
 
-Plain Text
-
-1
-
 Maximum Protection
-
-2
-
 Using
-
-3
-
 Limited Resources
 
 * * *
@@ -130,46 +120,18 @@ Limited Resources
 
 At a high level:
 
-Plain Text
+1. Asset Valuation
 
-1
+2. Risk Analysis
 
-1\. Asset Valuation
-
-2
-
-3
-
-2\. Risk Analysis
-
-4
-
-5
-
-3\. Risk Treatment
+3. Risk Treatment
 
 Think of it like visiting a doctor.
 
-Plain Text
-
-1
-
 What is important?
-
-2
-
 ↓
-
-3
-
 What is wrong?
-
-4
-
 ↓
-
-5
-
 What should we do?
 
 * * *
