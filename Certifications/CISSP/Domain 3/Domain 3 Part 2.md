@@ -894,3 +894,74 @@ Security decisions should be based on independent evaluation, measurable assuran
 That is exactly how a mature security program operates.
 
 # Ultimate Memory Sheet
+
+Evaluation Criteria
+= Independent product testing
+
+Certification
+= Technical evaluation
+
+Accreditation
+= Management approval
+
+TCSEC (Orange Book)
+= Confidentiality only
+= Standalone systems only
+
+B1
+= Labels introduced
+
+A1
+= Verified Design
+
+ITSEC
+= Confidentiality + Integrity
+= Networked systems
+= Adds Assurance Levels
+
+Common Criteria
+= ISO 15408
+= Modern global standard
+
+PP
+= Protection Profile
+= Requirements for a class of products
+
+TOE
+= Target of Evaluation
+= Actual product being tested
+
+ST
+= Security Target
+= Vendor security claims
+
+EAL1
+= Functionally Tested
+
+EAL2
+= Structurally Tested
+
+EAL3
+= Methodically Tested
+
+EAL4
+= Methodically Designed/Tested/Reviewed
+
+EAL5
+= Semi-Formally Designed/Tested
+
+EAL6
+= Semi-Formally Verified
+
+EAL7
+= Formally Verified
+
+Certification
+= Technical experts approve
+
+Accreditation
+= Management signs off
+
+CISSP Mindset:
+Don't trust vendor marketing.
+Trust independent testing and formal risk-based approval.
