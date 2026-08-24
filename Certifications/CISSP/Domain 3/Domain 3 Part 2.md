@@ -126,23 +126,15 @@ Management decides:
 
 Think:
 
-Plain Text
-
-1
+ 
 
 Certification
-
-2
-
+ 
 \= Technical people test
 
-3
-
-4
-
+ 
 Accreditation
 
-5
 
 \= Management approves
 
@@ -223,25 +215,15 @@ Because it reinforces a major CISSP principle:
 
 Think of Evaluation Criteria evolving through history.
 
-Plain Text
-
-1
+ 
 
 TCSEC
-
-2
-
+ 
 ↓
-
-3
 
 ITSEC
 
-4
-
 ↓
-
-5
 
 Common Criteria
 
@@ -301,9 +283,7 @@ Just secrecy.
 
 TCSEC only evaluates:
 
-Plain Text
-
-1
+ 
 
 Confidentiality
 
@@ -313,9 +293,7 @@ Confidentiality
 
 TCSEC only evaluates:
 
-Plain Text
-
-1
+ 
 
 Standalone systems
 
@@ -367,9 +345,7 @@ Remember that.
 
 ### Exam Memory Trick
 
-Plain Text
-
-1
+ 
 
 B1 = Begin Labeling
 
@@ -401,9 +377,7 @@ Extremely rigorous.
 
 As you move:
 
-Plain Text
-
-1
+ 
 
 D → C → B → A
 
@@ -439,14 +413,10 @@ Think:
 
 Supports:
 
-Plain Text
-
-1
+ 
 
 Confidentiality
-
-2
-
+ 
 +
 
 3
@@ -467,9 +437,7 @@ This aligns with Bell-LaPadula and Biba concepts.
 
 Supports:
 
-Plain Text
-
-1
+ 
 
 Networked Systems
 
@@ -571,14 +539,10 @@ This is the framework CISSP cares about most.
 
 # Remember This
 
-Plain Text
-
-1
+ 
 
 Common Criteria
-
-2
-
+ 
 \=
 
 3
@@ -653,9 +617,7 @@ Palo Alto Firewall DEF
 
 # Memory Trick
 
-Plain Text
-
-1
+ 
 
 TOE = The actual Thing being Evaluated
 
@@ -679,65 +641,21 @@ Essentially:
 
 Think:
 
-Plain Text
-
-1
-
 PP
-
-2
-
 ↓
-
-3
-
 Requirements
 
-4
-
-5
-
 TOE
-
-6
-
 ↓
-
-7
-
 Product
 
-8
-
-9
-
 ST
-
-10
-
 ↓
-
-11
-
 Vendor Claims
 
-12
-
-13
-
 Lab Testing
-
-14
-
 ↓
-
-15
-
 Result
-
-16
-
-17
 
 EAL
 
@@ -763,17 +681,13 @@ This distinction matters.
 
 Higher EAL does not automatically mean:
 
-Plain Text
-
-1
+ 
 
 Better Security
 
 It means:
 
-Plain Text
-
-1
+ 
 
 More Thorough Evaluation
 
@@ -813,8 +727,7 @@ Very common commercial target.
 
 * * *
 
-## EAL5
-
+## EAL
 Semi-Formally Designed and Tested
 
 * * *
@@ -847,56 +760,18 @@ Watch the wording become stronger.
 
 
 Tested
-
-2
-
 ↓
-
-3
-
 Structured
-
-4
-
 ↓
-
-5
-
 Methodical
-
-6
-
 ↓
-
-7
-
 Designed
-
-8
-
 ↓
-
-9
-
 Semi-Formal
-
-10
-
 ↓
-
-11
-
 Verified
-
-12
-
 ↓
-
-13
-
 Formal Verification
-
-14
 
 The higher you go, the more evidence exists.
 
