@@ -1,0 +1,1132 @@
+# CISSP Domain 3: Cloud Computing
+
+## The Big Picture
+
+Most students memorize:
+
+- IaaS
+- PaaS
+- SaaS
+- Public Cloud
+- Private Cloud
+- SAML
+- OAuth
+
+Then get confused during the exam.
+
+The CISSP is actually teaching something much more important:
+
+> "When an organization moves assets into someone else's environment, who is responsible for protecting those assets?"
+
+Cloud is fundamentally a governance, risk, accountability, and security problem.
+
+Technology is only part of the conversation.
+
+Think like a CIO or CISO.
+
+The real questions are:
+
+- Who owns the data?
+- Who is responsible for security?
+- What controls are required?
+- How is assurance obtained?
+- How do we verify the provider is meeting requirements?
+
+---
+
+# What is Cloud Computing?
+
+Instead of a strict definition, cloud computing is defined through characteristics.
+
+Why?
+
+Because cloud can take many forms:
+
+- Virtual machines
+- Containers
+- SaaS applications
+- Identity services
+- AI platforms
+- Serverless functions
+
+Rather than defining what cloud is, we define how cloud behaves.
+
+---
+
+# The Five Essential Cloud Characteristics
+
+These are important for CISSP.
+
+If a service exhibits these characteristics, it is likely cloud computing.
+
+## 1. On-Demand Self-Service
+
+Users can provision resources themselves.
+
+Without involving:
+
+- Procurement teams
+- Infrastructure teams
+- Datacenter staff
+
+---
+
+### Traditional IT
+
+Need a server.
+
+Submit request.
+
+Wait weeks or months.
+
+---
+
+### Cloud
+
+Need a server.
+
+Click button.
+
+Server available in minutes.
+
+---
+
+### Security Concern
+
+Shadow IT.
+
+Users can rapidly create resources without governance oversight.
+
+---
+
+### ACT Government Example
+
+A business unit creates Azure resources without ICT approval.
+
+Now:
+
+- Unknown systems exist
+- Unknown data exists
+- Unknown risks exist
+
+Classic Shadow IT.
+
+---
+
+# 2. Broad Network Access
+
+Cloud services are accessible through networks.
+
+Usually:
+
+- Web browser
+- Mobile applications
+- APIs
+
+Access is possible from many locations and device types.
+
+---
+
+### Security Implication
+
+Perimeter security becomes less important.
+
+Identity becomes more important.
+
+This leads directly into:
+
+**Zero Trust**
+
+---
+
+# 3. Resource Pooling
+
+One of the most important cloud concepts.
+
+Cloud providers pool:
+
+- Compute
+- Storage
+- Network
+
+Resources are shared amongst many customers.
+
+---
+
+### Restaurant Example
+
+Instead of every restaurant owning:
+
+- Its own power plant
+- Its own water system
+
+Multiple restaurants share infrastructure.
+
+Cloud works similarly.
+
+---
+
+### Why It Matters
+
+Resource pooling enables:
+
+- Efficiency
+- Scalability
+- Cost reduction
+
+Through virtualization.
+
+---
+
+# 4. Rapid Elasticity
+
+Resources can rapidly scale.
+
+Increase:
+
+- CPU
+- Memory
+- Storage
+- Bandwidth
+
+As demand changes.
+
+---
+
+### Example
+
+Black Friday traffic spikes.
+
+System automatically scales.
+
+Traffic decreases.
+
+Resources shrink.
+
+Organization only pays for actual usage.
+
+---
+
+### Security Perspective
+
+Controls must scale too.
+
+Examples:
+
+- Logging
+- Monitoring
+- Access control
+- Detection
+
+---
+
+# 5. Measured Service
+
+Usage is monitored.
+
+Customers pay for consumption.
+
+Often called:
+
+**Pay-As-You-Go**
+
+---
+
+### Example
+
+Azure charges based on:
+
+- Compute time
+- Storage
+- Network usage
+
+---
+
+### Security Perspective
+
+Unexpected usage can indicate:
+
+- Misconfiguration
+- Abuse
+- Compromise
+
+Billing anomalies are sometimes security indicators.
+
+---
+
+# Cloud Service Models
+
+The easiest way to understand service models:
+
+> How much responsibility remains with the customer?
+
+Moving from IaaS to SaaS transfers more operational responsibility to the provider.
+
+---
+
+# IaaS (Infrastructure as a Service)
+
+Provides virtualized infrastructure.
+
+Examples:
+
+- Virtual Servers
+- Virtual Networks
+- Virtual Firewalls
+- Storage
+
+---
+
+### Examples
+
+- Azure Virtual Machines
+- AWS EC2
+
+---
+
+### Customer Responsibility
+
+Generally responsible for:
+
+- Operating Systems
+- Applications
+- Data
+- Access Control
+
+---
+
+### Analogy
+
+Renting an empty apartment.
+
+The building exists.
+
+You furnish everything else.
+
+---
+
+# PaaS (Platform as a Service)
+
+Provides development platforms.
+
+Customer focuses on applications.
+
+Provider manages underlying infrastructure.
+
+---
+
+### Examples
+
+- Azure App Services
+- Azure SQL Database
+
+---
+
+### Analogy
+
+Renting a fully equipped kitchen.
+
+You only focus on cooking.
+
+---
+
+# SaaS (Software as a Service)
+
+Complete applications delivered as services.
+
+---
+
+### Examples
+
+- Microsoft 365
+- Salesforce
+- ServiceNow
+
+---
+
+### Customer Focus
+
+Mostly:
+
+- Users
+- Data
+- Configuration
+
+---
+
+### Analogy
+
+Ordering food from a restaurant.
+
+You simply consume the service.
+
+---
+
+# Service Model Memory Trick
+
+Increasing Provider Responsibility:
+
+```text
+IaaS
+↓
+PaaS
+↓
+SaaS
+```
+
+Increasing Customer Simplicity:
+
+```text
+IaaS → More Customer Work
+
+SaaS → Less Customer Work
+```
+
+---
+
+# Containers as a Service (CaaS)
+
+Sits between:
+
+```text
+IaaS
+and
+PaaS
+```
+
+---
+
+## What is a Container?
+
+Portable execution environment.
+
+Contains:
+
+- Code
+- Dependencies
+- Libraries
+
+Can run almost anywhere.
+
+---
+
+### Shipping Container Analogy
+
+A shipping container works on:
+
+- Ship
+- Truck
+- Train
+
+Without repacking.
+
+Containers do the same for software.
+
+---
+
+### Benefits
+
+- Portability
+- Consistency
+- Scalability
+
+---
+
+# Virtual Machines vs Containers
+
+## Virtual Machine
+
+Contains:
+
+- Operating System
+- Applications
+
+Heavyweight.
+
+---
+
+## Container
+
+Shares host operating system.
+
+Contains:
+
+- Application
+- Required packages
+
+Lightweight.
+
+---
+
+### CISSP Exam Tip
+
+Virtual Machines virtualize:
+
+```text
+Hardware
+```
+
+Containers virtualize:
+
+```text
+Operating System Resources
+```
+
+---
+
+# Hypervisor
+
+The technology enabling Virtual Machines.
+
+---
+
+## Role
+
+Creates virtual hardware.
+
+Allows multiple operating systems to run simultaneously.
+
+---
+
+### Easy Memory
+
+Hypervisor = Virtual Machine Manager
+
+---
+
+# Type 1 Hypervisor
+
+Runs directly on hardware.
+
+Examples:
+
+- Hyper-V
+- VMware ESXi
+
+More secure.
+
+More efficient.
+
+---
+
+# Type 2 Hypervisor
+
+Runs on top of an operating system.
+
+Examples:
+
+- VirtualBox
+- VMware Workstation
+
+Less efficient.
+
+Less secure.
+
+---
+
+### Exam Tip
+
+When asked:
+
+> Which is more secure?
+
+Answer:
+
+**Type 1 Hypervisor**
+
+---
+
+# Serverless (Functions as a Service)
+
+Probably the easiest concept to overcomplicate.
+
+---
+
+## Core Idea
+
+Developers write functions.
+
+Provider manages everything else.
+
+---
+
+### Example
+
+Function performs:
+
+- Image processing
+- User validation
+- Notification sending
+
+Function executes only when needed.
+
+---
+
+### Benefit
+
+You don't manage:
+
+- Servers
+- OS
+- Scaling
+
+---
+
+### Pay Model
+
+Pay only when function executes.
+
+---
+
+# Monolith → Microservices → Serverless
+
+A useful progression.
+
+## Monolithic
+
+Entire application packaged together.
+
+---
+
+## Microservices
+
+Application divided into services.
+
+---
+
+## Serverless
+
+Application divided into individual functions.
+
+---
+
+### CISSP Exam Thought
+
+As architecture becomes more distributed:
+
+Security becomes increasingly dependent on:
+
+- APIs
+- Identity
+- Access Control
+
+---
+
+# Identity is the New Perimeter
+
+This is one of the most important cloud concepts.
+
+Traditional security assumed:
+
+```text
+Inside Network = Trusted
+```
+
+Cloud destroys this assumption.
+
+---
+
+Today:
+
+Users access resources from:
+
+- Home
+- Mobile device
+- Public networks
+- Other countries
+
+---
+
+Therefore:
+
+```text
+Identity
+=
+Perimeter
+```
+
+---
+
+# Zero Trust Connection
+
+Cloud strongly supports Zero Trust.
+
+Principle:
+
+> Trust Nothing, Verify Everything.
+
+Every request should be validated.
+
+Regardless of location.
+
+---
+
+# Identity Types
+
+## Cloud Identity
+
+Exists only in the cloud.
+
+Example:
+
+Entra ID cloud-only account.
+
+---
+
+## Linked Identity
+
+Separate accounts.
+
+Connected conceptually.
+
+Not synchronized.
+
+---
+
+## Synced Identity
+
+On-prem and cloud identities synchronized.
+
+Example:
+
+AD synced to Entra ID.
+
+---
+
+## Federated Identity
+
+Single identity trusted across environments.
+
+Provides:
+
+- Single Sign-On
+- Federated Access
+
+---
+
+### ACT Government Example
+
+User signs in once.
+
+Accesses:
+
+- M365
+- ServiceNow
+- Other applications
+
+Federation enables this.
+
+---
+
+# Accountability vs Responsibility
+
+Critical CISSP theme.
+
+---
+
+# Accountability
+
+Ownership.
+
+Cannot be delegated.
+
+One owner.
+
+---
+
+# Responsibility
+
+Execution.
+
+Can be delegated.
+
+Multiple people may be responsible.
+
+---
+
+### Memory Trick
+
+Accountable:
+
+Owns outcome.
+
+Responsible:
+
+Performs work.
+
+---
+
+# Cloud Roles
+
+## Cloud Consumer
+
+The customer using cloud services.
+
+---
+
+## Owner / Controller
+
+Owns the data.
+
+Remains accountable.
+
+Even after outsourcing.
+
+---
+
+### Important CISSP Rule
+
+Moving data to Azure does NOT transfer accountability.
+
+Owner remains accountable.
+
+Always.
+
+---
+
+## Cloud Provider / Processor
+
+Processes data on behalf of the owner.
+
+Responsible for agreed services.
+
+---
+
+## Cloud Broker
+
+Middleman.
+
+Provides:
+
+- Aggregation
+- Integration
+- Additional services
+
+---
+
+## Cloud Auditor
+
+Validates controls.
+
+Provides assurance.
+
+---
+
+# Cloud Protocols
+
+These appear regularly in CISSP questions.
+
+---
+
+# SPML
+
+Service Provisioning Markup Language.
+
+Used for:
+
+```text
+Provisioning
+```
+
+Think:
+
+Create
+
+Change
+
+Remove Accounts
+
+---
+
+# SAML
+
+Provides:
+
+```text
+Authentication
++
+Authorization
+```
+
+Federated identity protocol.
+
+---
+
+### Memory Trick
+
+SAML = Both
+
+---
+
+# OpenID
+
+Provides:
+
+```text
+Authentication Only
+```
+
+Proves identity.
+
+---
+
+### Memory Trick
+
+OpenID = Identity
+
+---
+
+# OAuth
+
+Provides:
+
+```text
+Authorization Only
+```
+
+Delegates permissions.
+
+---
+
+### Memory Trick
+
+OAuth = Access Permission
+
+---
+
+# Easy Protocol Memory Sheet
+
+```text
+SPML = Provisioning
+
+SAML = Authentication + Authorization
+
+OpenID = Authentication
+
+OAuth = Authorization
+```
+
+---
+
+# Cloud Migration
+
+When moving systems to cloud:
+
+Focus on the data.
+
+---
+
+## Data-Centric Approach
+
+Questions include:
+
+- What is the classification?
+- What controls are required?
+- How long is retention?
+- What are destruction requirements?
+
+Notice how this connects directly to:
+
+- Data Lifecycle
+- Classification
+- Privacy
+
+---
+
+# SLA (Service Level Agreement)
+
+One of the most important cloud governance tools.
+
+---
+
+## Purpose
+
+Documents provider commitments.
+
+Examples:
+
+- Availability
+- Responsiveness
+- Recovery Times
+- Security Requirements
+
+---
+
+### CISSP Perspective
+
+SLAs help define responsibilities.
+
+They do NOT transfer accountability.
+
+---
+
+# Cloud Forensics
+
+Forensics becomes more difficult in cloud environments.
+
+You often cannot access physical hardware.
+
+---
+
+# Most Valuable Evidence
+
+## VM Snapshot
+
+Best option.
+
+Captures:
+
+- Running state
+- Memory
+- Data
+
+Extremely valuable.
+
+---
+
+## Virtual Disk
+
+Contains storage.
+
+No volatile memory.
+
+Less useful.
+
+---
+
+## VM Image
+
+Template only.
+
+Least useful from a forensic standpoint.
+
+---
+
+# Memory Trick
+
+```text
+Snapshot > Virtual Disk > Image
+```
+
+From most useful to least useful.
+
+---
+
+# Cloud Data Destruction
+
+One of the biggest cloud challenges.
+
+You often can't physically destroy a drive.
+
+---
+
+# Crypto Shredding
+
+Cloud-friendly destruction method.
+
+Process:
+
+1. Encrypt data
+2. Destroy encryption keys
+3. Data becomes unrecoverable
+
+---
+
+### CISSP Perspective
+
+This supports:
+
+**Defensible Destruction**
+
+Especially in large cloud environments.
+
+---
+
+# High Value CISSP Exam Notes
+
+```text
+Cloud Characteristics:
+On-demand Self Service
+Broad Network Access
+Resource Pooling
+Rapid Elasticity
+Measured Service
+
+Service Models:
+IaaS
+PaaS
+SaaS
+
+Containers:
+Portable execution environments
+
+Serverless:
+Functions as a Service
+
+Type 1 Hypervisor:
+Runs on hardware
+More secure
+
+Type 2 Hypervisor:
+Runs on OS
+
+Identity is the New Perimeter
+
+Cloud Identity:
+Cloud only
+
+Linked:
+Connected but not synced
+
+Synced:
+Automatically synchronized
+
+Federated:
+Single identity across systems
+
+Accountability:
+Cannot be delegated
+
+Responsibility:
+Can be delegated
+
+SPML:
+Provisioning
+
+SAML:
+Authentication + Authorization
+
+OpenID:
+Authentication
+
+OAuth:
+Authorization
+
+Cloud Forensics:
+Snapshot > Disk > Image
+
+Cloud Destruction:
+Crypto Shredding
+```
+
+# The Deep CISSP Takeaway
+
+Cloud computing is not primarily a technology transformation.
+
+It is a responsibility transformation.
+
+The biggest mistake organizations make is assuming:
+
+> "If the cloud provider manages the infrastructure, they manage security."
+
+CISSP wants you to remember:
+
+- Ownership remains with the customer.
+- Accountability remains with the data owner.
+- Responsibilities must be clearly defined.
+- Trust must be supported by assurance.
+- Identity becomes the primary security boundary.
+
+The cloud changes where systems run.
+
+It does not change who is ultimately accountable for protecting the organization's assets.
