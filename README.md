@@ -1,56 +1,151 @@
-# My-Cybersec-Journey
-A collection of my cybersecurity labs, notes, tools, and certification study materials.
+# My Cybersecurity Journey
 
+A collection of my cybersecurity labs, notes, tools, certifications, and hands-on study materials.
 
-# Cybersecurity Learning Portfolio
+Welcome to my cybersecurity portfolio. This repository is a record of my learning journey across security operations, cloud security, networking, and ethical hacking. It brings together my study notes, lab exercises, technical documentation, projects, and certification progress in one place.
 
-Welcome to my cybersecurity portfolio! This repo is a collection of everything I’ve learned, built, or tested on my path to becoming a cybersecurity professional. It includes notes, labs, tools, certifications, and personal projects.
-
-I’m currently preparing for Microsoft SC-200 and planning to take SC-100 next. I’m also learning various tools and building my own lab for practical experience.
+I have now completed my previously targeted certifications and am currently preparing for the CISSP exam.
 
 ---
 
-## 🔒 Certifications
+## Overview
 
-This section includes study notes, lab walkthroughs, and KQL queries related to certifications like:
+This repository contains:
 
-- SC-200: Microsoft Security Operations Analyst
-- SC-100: Microsoft Cybersecurity Architect (planned)
-
-Each folder contains hands-on work, screenshots, and summaries.
+- Certification notes and study resources
+- Hands-on labs and practical exercises
+- Security tools and documentation
+- Technical projects and walkthroughs
+- Personal learning records and references
 
 ---
 
-## 🛠 Tools
+## Certification Progress
 
-Here I keep documentation and testing results for tools I’ve used during my learning:
+Completed certifications include:
+
+- ITIL v4 Foundation
+- ISC2 CC
+- Aviatrix ACE-MNA
+- Cisco Ethical Hacker
+- Microsoft SC-200
+- Microsoft SC-100
+- Microsoft SC-300
+- Microsoft AZ-104
+- Google Cloud Cybersecurity Certificate
+- VMware Cloud Foundation (VCF)
+
+Current focus:
+
+- CISSP preparation
+
+Explore the full certification library here: [Certifications](./Certifications/README.md)
+
+---
+
+## Repository Structure
+
+```text
+My-Cybersec-Journey/
+├── Certifications/
+│   ├── README.md
+│   ├── SC-200/
+│   ├── SC-100/
+│   ├── SC-300/
+│   ├── AZ-104/
+│   ├── CISCO Ethical Hacker/
+│   ├── Google Cloud Cybersecurity Certificate/
+│   ├── ISC2 CC/
+│   ├── ITIL v4 Foundation/
+│   ├── ACE - Multicloud Network Associate/
+│   ├── XM Exposure Management/
+│   └── ...
+├── Labs/
+│   └── README.md
+├── Projects/
+│   ├── Readme.md
+│   ├── Masters Graduation Project/
+│   ├── Project Based on VLSI/
+│   ├── Projects Based on MATLAB/
+│   ├── Projects based on MicroControllers/
+│   └── Walkthrough of Applied Skills Azure/
+├── Tools/
+│   ├── README.md
+│   ├── NMAP_Documentation.pdf
+│   ├── Metasploit_Study_Notes.pdf
+│   ├── Jack_The_Ripper_Documentation.pdf
+│   └── Password_Cracking_tools_Documentation.pdf
+├── LICENSE
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Labs
+
+This section contains my hands-on cybersecurity lab work, including configuration exercises, testing scenarios, screenshots, and notes from real-world practice.
+
+- Security Operations labs
+- Cloud and Azure security exercises
+- Defensive monitoring and detection practices
+- Practical cybersecurity learning activities
+
+View lab materials here: [Labs](./Labs/README.md)
+
+---
+
+## Tools
+
+I keep documentation and study notes for tools I used during my learning journey, including:
 
 - Wireshark
-- Metasploit
 - Nmap
-- and more...
+- Metasploit
+- John the Ripper
+- Password cracking tools
+- Other security-focused utilities
+
+Explore the tools section: [Tools](./Tools/README.md)
 
 ---
 
-## 🧪 Projects
+## Projects
 
-This includes real-world lab projects I've built or simulated:
+This section includes my project work, academic efforts, and technical walkthroughs, such as:
 
-- EDR + Defender XDR Home Lab
-- Attack simulations
-- Detection use cases
+- Masters Graduation Project
+- VLSI-based projects
+- MATLAB projects
+- Microcontroller projects
+- Azure Applied Skills walkthroughs
+
+Explore project work here: [Projects](./Projects/Readme.md)
 
 ---
 
-## 📚 Resources
+## Current Focus
 
-Cheat sheets, useful links, and general references that helped me during my studies.
+I am now preparing for:
+
+- CISSP
+
+The goal is to strengthen my understanding of information security governance, risk management, asset security, security architecture, and operational security while continuing to build on the practical knowledge I have gained through prior certifications and labs.
 
 ---
 
 ## About Me
 
-I’m building this repo not just for myself but for others who are starting their cybersecurity journey. Everything here is based on what I’ve actually tested and worked through.
+This repository reflects my personal journey in cybersecurity, cloud security, and technology learning. It is meant to document my progress, support my future revision, and help others who are beginning similar paths.
 
-Feel free to explore, fork, or reuse anything!
+I’ve built this repository as a living record of what I’ve studied, tested, and applied.
 
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more information.
+
+---
+
+“Every certification completed is another step forward — and this journey continues with CISSP.”
