@@ -31,9 +31,8 @@ Completed certifications include:
 - Microsoft SC-200
 - Microsoft SC-100
 - Microsoft SC-300
-- Microsoft AZ-104
 - Google Cloud Cybersecurity Certificate
-- VMware Cloud Foundation (VCF)
+
 
 Current focus:
 
